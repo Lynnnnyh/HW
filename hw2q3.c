@@ -4,7 +4,7 @@
 int main(void) {
 	int x = 100;
 	int a, b, c;
-	while (x <= 1015) {
+	while (x <= 999) {
 		a = x/100;
 		b = (-100*a + x)/10;
 		c = x - x/10 * 10;
